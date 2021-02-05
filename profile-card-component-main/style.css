@@ -1,5 +1,50 @@
 /*::: BASE LAYOUT STYLE ::::*/
 body {
-    color:red;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: royalblue;
+    color: hsl(0, 0%, 59%);
+}
+h2 {
+    font-size: 18px;
+}
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 20px rgba(0, 0, 0, .2);
+    text-align: center; 
 }
 /*::: BASE LAYOUT STYLE ::::*/
+
+
+
+
+
+
+/*::: BASE LAYOUT CLASS IDs STYLE ::::*/
+#user-name {
+    font-size: 1.5rem;
+    color: hsl(229, 23%, 23%);
+}
+#user-name,
+#user-age {
+    display: inline;
+    color: red;
+}
+#user-dream-crib-location,
+#profile-image {
+    display: block;
+    border: 2px red solid;
+}
+/*::: BASE LAYOUT CLASS IDs STYLE ::::*/
+
+
+
+
+/*::: BASE LAYOUT CLASS CLASSes STYLE ::::*/
+.sexy-bigg-number {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+/*::: BASE LAYOUT CLASS CLASSes STYLE ::::*/
