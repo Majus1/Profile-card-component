@@ -1,8 +1,12 @@
 /*::: BASE LAYOUT STYLE ::::*/
 body {
     font-family: 'Kumbh Sans', sans-serif;
-    background-color: royalblue;
+    background-image: url(images/bg-pattern-bottom.svg), url(images/bg-pattern-top.svg);
+    background-position: left top, right mid;
+    background-repeat: no-repeat;
+    background-color: #1699a5;
     color: hsl(0, 0%, 59%);
+    position: relative;
 }
 h2 {
     font-size: 18px;
@@ -10,11 +14,15 @@ h2 {
 main {
     background-image: url(images/bg-pattern-card.svg);
     background-size: contain;
+    background-position: top;
     background-repeat: no-repeat;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 0 0 20px 20px rgba(0, 0, 0, .2);
     text-align: center; 
+    width: 95%;
+    position: absolute;
+    top: -50%;
 }
 hr {
     background-color: hsl(0, 0%, 79%);
@@ -49,7 +57,7 @@ hr {
 }
 #profile-image {
     border-radius: 50%;
-    border: 0.5rem solid red;
+    border: 0.5rem solid white;
 }
 #user-dream-crib-location {
     padding-top: .5rem;
@@ -72,6 +80,9 @@ hr {
 }
 .secondary-users-information p {
     margin-top: 8px;
+}
+.primary-users-information {
+    padding-top: 25%;
 }
 /*::: BASE LAYOUT CLASSes STYLE ::::*/
 
