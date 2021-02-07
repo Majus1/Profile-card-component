@@ -34,6 +34,7 @@ main {
 #profile-image {
     display: block;
     border: 2px red solid;
+    text-align: center;
 }
 /*::: BASE LAYOUT CLASS IDs STYLE ::::*/
 
