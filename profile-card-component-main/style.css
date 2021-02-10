@@ -1,12 +1,12 @@
 /*::: BASE LAYOUT STYLE ::::*/
 body {
     font-family: 'Kumbh Sans', sans-serif;
-    background-image: url(images/bg-pattern-bottom.svg), url(images/bg-pattern-top.svg);
-    background-position: left top, right mid;
-    background-repeat: no-repeat;
+    background-image: url(images/bg-pattern-bottom.svg), url(images/bg-pattern-bottom.svg);
+    background-repeat: contain;
+    background-position: right top, left;
+    background-size: 1500px;
     background-color: #1699a5;
     color: hsl(0, 0%, 59%);
-    position: relative;
 }
 h2 {
     font-size: 18px;
@@ -21,8 +21,12 @@ main {
     box-shadow: 0 0 20px 20px rgba(0, 0, 0, .2);
     text-align: center; 
     width: 95%;
-    position: absolute;
-    top: -50%;
+    max-width: 350px;
+    /* ::: pozcioneral sem ga y pomočjo fixed in top in right pa še calc() ::: */
+    position: fixed;
+    top: calc(50% - 199.812px);
+    right: calc(50% - 175px);
+    /* ::: pozcioneral sem ga y pomočjo fixed in top in right pa še calc() ::: */
 }
 hr {
     background-color: hsl(0, 0%, 79%);
